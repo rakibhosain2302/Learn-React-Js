@@ -1,0 +1,18 @@
+[
+    {
+        "title": "React App",
+        "description": "Refactored the Card component to use destructured props for better readability"
+    },
+    {
+        "title": "React App2",
+        "description": "Refactored the Card component to use destructured props for better readability2"
+    },
+    {
+        "title": "React App3",
+        "description": "Refactored the Card component to use destructured props for better readability3"
+    },
+    {
+        "title": "React App4",
+        "description": "Refactored the Card component to use destructured props for better readability4"
+    }
+]
