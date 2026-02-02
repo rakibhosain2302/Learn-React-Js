@@ -30,6 +30,8 @@ import DataFetch from "./components/hooks/UseEffact/DataFetch.jsx";
 import CutomHookUsers from "./components/hooks/Custom/Custom.jsx";
 import CutomHookTodos from "./components/hooks/Custom/Todos.jsx";
 import NotifyToastify from "./components/Toastify/NewData.jsx";
+import DynamicStyle from "./components/dynamic-styling/index.jsx";
+
 
 
 
@@ -139,7 +141,7 @@ function App() {
 
       <NotifyToastify />
 
-
+      <DynamicStyle />
 
     </>
   );
