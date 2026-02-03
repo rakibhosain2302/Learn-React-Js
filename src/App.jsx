@@ -34,6 +34,10 @@ import DynamicStyle from "./components/dynamic-styling/index.jsx";
 import Fragment from "./components/fragment/fragment.jsx";
 import PropTypes from "./components/propTypes/Users.jsx";
 import LifeCycle from "./components/LifeCycle/lifeCycle.jsx";
+import Ref from "./components/RefExample/refExample.jsx";
+
+
+
 
 
 
@@ -153,6 +157,8 @@ function App() {
       <PropTypes />
 
       <LifeCycle />
+
+      <Ref />
       
 
     </>
