@@ -31,6 +31,10 @@ import CutomHookUsers from "./components/hooks/Custom/Custom.jsx";
 import CutomHookTodos from "./components/hooks/Custom/Todos.jsx";
 import NotifyToastify from "./components/Toastify/NewData.jsx";
 import DynamicStyle from "./components/dynamic-styling/index.jsx";
+import Fragment from "./components/fragment/fragment.jsx";
+import PropTypes from "./components/propTypes/Users.jsx";
+
+
 
 
 
@@ -142,6 +146,11 @@ function App() {
       <NotifyToastify />
 
       <DynamicStyle />
+
+      <Fragment />
+
+      <PropTypes />
+      
 
     </>
   );
