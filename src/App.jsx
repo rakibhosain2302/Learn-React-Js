@@ -36,6 +36,11 @@ import PropTypes from "./components/propTypes/Users.jsx";
 import LifeCycle from "./components/LifeCycle/lifeCycle.jsx";
 import Ref from "./components/hooks/RefExample/refExample.jsx";
 import UseRef from "./components/hooks/RefExample/useRef.jsx";
+import Reducer from "./components/hooks/UseReducer/index.jsx";
+
+
+
+
 
 
 
@@ -161,6 +166,7 @@ function App() {
 
       <Ref />
       <UseRef />
+      <Reducer />
 
       
 
