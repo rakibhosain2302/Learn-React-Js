@@ -19,6 +19,7 @@ export default class UserForm extends Component {
   render() {
     return (
       <div className="mt-5">
+        <h2 className="text-center mb-3">Class Component Ref Example</h2>
         <form onSubmit={this.handleSubmit}>
           <div className="row align-items-center mb-3">
             {/* Label (Left) */}
