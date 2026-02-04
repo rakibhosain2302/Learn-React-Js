@@ -9,7 +9,7 @@ const data = {
 
 const Component1 = () => {
   const [user] = useState(data);
-  console.log(user);
+  // console.log(user);
 
 
   // Passing the 'user' object into the 'data' prop

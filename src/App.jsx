@@ -38,6 +38,8 @@ import Ref from "./components/hooks/RefExample/refExample.jsx";
 import UseRef from "./components/hooks/RefExample/useRef.jsx";
 import Reducer from "./components/hooks/UseReducer/index.jsx";
 import PropDrilling from "./components/Prop Drilling/Component1.jsx";
+import UseContextExample from "./components/hooks/UseContext/Component1.jsx";
+
 
 
 
@@ -170,7 +172,7 @@ function App() {
       <UseRef />
       <Reducer />
       <PropDrilling />
-
+      <UseContextExample />
 
     </>
   );

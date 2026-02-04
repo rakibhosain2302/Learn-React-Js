@@ -1,7 +1,11 @@
-import React from "react";
+import React , { useContext } from "react";
+import { UserContext } from "./UserContext.jsx";
 
-const Component4 = ({ data }) => {
-  // console.log("Data received:", data);
+const Component4 = () => {
+
+  const data = useContext(UserContext);
+
+  console.log("Data received:", data);
 
   // The safety check is good practice!
   if (!data) {
@@ -10,7 +14,7 @@ const Component4 = ({ data }) => {
 
   return (
     <div className="mt-5">
-      <h2 className="text-center">Prop Drilling Example</h2>
+      <h2 className="text-center">Use Context Example</h2>
       <div
         style={{ border: "1px solid #ccc", padding: "10px" }}
         
@@ -21,6 +25,9 @@ const Component4 = ({ data }) => {
         </p>
         <p>
           <strong>Age:</strong> {data.age}
+        </p>
+        <p>
+          <strong>Description:</strong> {data.desc}
         </p>
       </div>
     </div>
