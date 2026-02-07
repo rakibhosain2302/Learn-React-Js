@@ -12,6 +12,8 @@ const Blog = () => {
     return text;
   };
 
+
+
   return (
     <div className="container">
       <h1 className="text-center my-4">Blog Page</h1>
@@ -24,7 +26,7 @@ const Blog = () => {
               <p className="mb-0" style={{ "text-align": "justify" }}>
                 {truncateText(blog.content, 100)}
               </p>
-              <Link to={`/blogs/${blog.id}`}>Read More</Link>
+              <Link to={`/blogs/${blog.id}`} state={blog}>Read More</Link>
             </div>
           </div>
         ))}

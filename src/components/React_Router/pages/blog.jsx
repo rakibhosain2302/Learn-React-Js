@@ -1,13 +1,17 @@
 import React from "react";
-import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate, useLocation } from "react-router-dom";
 import { blogsData } from "../data/blogs";
 
 const BlogDetails = () => {
-  const { id } = useParams();
+  const location = useLocation();
+  const blog = location.state;
+//   console.log(location);
 
-  const blog = blogsData.find(
-    (blog) => blog.id === Number(id)
-  );
+//   const { id } = useParams();
+
+//   const blog = blogsData.find(
+//     (blog) => blog.id === Number(id)
+//   );
 
   if (!blog) {
     return <Navigate to="*" />;
