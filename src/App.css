@@ -70,4 +70,17 @@
   text-align: justify;
 }
 
+.n-link{
+  color: #000;
+  text-decoration: none;
+}
+
+.n-link:hover{
+  color: #d13e19f5;
+}
+
+
+nav .active{
+  color: #d13e19f5;
+}
 

@@ -1,28 +1,27 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
-// Pages
-import Home from "./pages/home.jsx";
-import About from "./pages/about.jsx";
-import Blog from "./pages/blog.jsx";
-import Contact from "./pages/contact.jsx";
-import Error from "./pages/error.jsx";
-
-
-function NavbarExample() {
+const Navbar = () => {
   return (
-    <BrowserRouter>
-      <h1 className="text-center mt-5">NavbarExample React Router</h1>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-    </BrowserRouter>
+    <nav className="navbar navbar navbar-expand-lg navbar-light bg-light p-4">
+      <div className="container-fluid">
+        <ul className="navbar-nav gap-4 mx-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+            <NavLink to="/" className="n-link fw-bold">Home</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/about" className="n-link fw-bold">About</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/blog" className="n-link fw-bold">Blog</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/contact" className="n-link fw-bold">Contact</NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
-}
+};
 
-export default NavbarExample;
+export default Navbar;
