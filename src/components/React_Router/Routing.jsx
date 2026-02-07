@@ -7,10 +7,10 @@ import Navbar from "./navbar.jsx";
 // Pages
 import Home from "./pages/home.jsx";
 import About from "./pages/about.jsx";
-import Blog from "./pages/blog.jsx";
+import Blogs from "./pages/blogs.jsx";
+import BlogDetails from "./pages/blog.jsx";
 import Contact from "./pages/contact.jsx";
 import Error from "./pages/error.jsx";
-
 
 function NavbarExample() {
   return (
@@ -22,7 +22,8 @@ function NavbarExample() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<BlogDetails />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
