@@ -39,9 +39,7 @@ import UseRef from "./components/hooks/RefExample/useRef.jsx";
 import Reducer from "./components/hooks/UseReducer/index.jsx";
 import PropDrilling from "./components/Prop Drilling/Component1.jsx";
 import UseContextExample from "./components/hooks/UseContext/Component1.jsx";
-
 import NavbarExample from "./components/React_Router/Routing.jsx";
-
 
 
 
@@ -178,6 +176,7 @@ function App() {
 
     {/* React-router */}
       <NavbarExample />
+
 
 
     </>

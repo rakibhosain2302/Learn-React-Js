@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Navigate, useLocation } from "react-router-dom";
-import { blogsData } from "../data/blogs";
+// import { blogsData } from "../data/blogs";
 
 const BlogDetails = () => {
   const location = useLocation();
