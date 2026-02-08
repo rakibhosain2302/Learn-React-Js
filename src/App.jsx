@@ -44,6 +44,7 @@ import ProtectedRoute from "./components/React_Router/protected_Route/routing.js
 import CustomJsonServer from "./components/API/dataFatch.jsx";
 import CustomPageTitle from "./components/React-helmet/home.jsx";
 import ReactMemo from "./components/Memo/index.jsx";
+import UseCallback from "./components/hooks/UseCallback/index.jsx";
 
 
 
@@ -194,6 +195,8 @@ function App() {
       <CustomJsonServer />
       <CustomPageTitle />
       <ReactMemo /> 
+      <UseCallback />
+    
 
 
 
