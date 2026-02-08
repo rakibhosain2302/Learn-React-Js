@@ -45,6 +45,8 @@ import CustomJsonServer from "./components/API/dataFatch.jsx";
 import CustomPageTitle from "./components/React-helmet/home.jsx";
 import ReactMemo from "./components/Memo/index.jsx";
 import UseCallback from "./components/hooks/UseCallback/index.jsx";
+import UseMemo from "./components/hooks/UseMemo/index.jsx";
+
 
 
 
@@ -196,6 +198,7 @@ function App() {
       <CustomPageTitle />
       <ReactMemo /> 
       <UseCallback />
+      <UseMemo />
     
 
 
