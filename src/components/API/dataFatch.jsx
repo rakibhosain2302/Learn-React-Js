@@ -6,7 +6,7 @@ const DataFetch = () => {
 
   return (
     <div className="mt-5">
-      <h1>Custom Json Server Data Fetch Example</h1>
+      <h1 className="text-center mt-5">Custom Json Server Data Fetch Example</h1>
 
       {isLoading && <p className="text-center">Data Is Loading...</p>}
       {Err && <p className="text-center text-danger">{Err}</p>}
