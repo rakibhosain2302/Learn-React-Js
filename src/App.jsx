@@ -43,6 +43,10 @@ import NavbarExample from "./components/React_Router/Routing.jsx";
 import ProtectedRoute from "./components/React_Router/protected_Route/routing.jsx";
 import CustomJsonServer from "./components/API/dataFatch.jsx";
 import CustomPageTitle from "./components/React-helmet/home.jsx";
+import ReactMemo from "./components/Memo/index.jsx";
+
+
+
 
 
 
@@ -185,8 +189,12 @@ function App() {
     {/* React-router */}
       <NavbarExample />
       <ProtectedRoute />
+
+
       <CustomJsonServer />
       <CustomPageTitle />
+      <ReactMemo /> 
+
 
 
 
