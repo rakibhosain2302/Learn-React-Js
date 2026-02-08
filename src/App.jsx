@@ -40,6 +40,8 @@ import Reducer from "./components/hooks/UseReducer/index.jsx";
 import PropDrilling from "./components/Prop Drilling/Component1.jsx";
 import UseContextExample from "./components/hooks/UseContext/Component1.jsx";
 import NavbarExample from "./components/React_Router/Routing.jsx";
+import ProtectedRoute from "./components/React_Router/protected_Route/routing.jsx";
+
 
 
 
@@ -176,6 +178,8 @@ function App() {
 
     {/* React-router */}
       <NavbarExample />
+      <ProtectedRoute />
+
 
 
 
